@@ -1,0 +1,185 @@
+/*header*/
+* {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    margin-top: 25px;
+}
+
+.link-1 {
+    margin-right: 15px;
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    color: #202124;
+}
+
+.link-2 {
+    margin-right: 25px;
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+    color: #202124;
+}
+
+.img-2 {
+    border-radius: 20px;
+    margin-top: -12px;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+}
+
+.img-1 {
+    margin-top: -8px;
+    margin-right: 25px;
+    height: 30px;
+    width: 30px;
+}
+
+.google-icon {
+    width: 276px;
+    height: 95px;
+}
+
+.central,
+.botones,
+.barra {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.barra>input {
+    height: 44px;
+    width: 580px;
+    border-radius: 30px;
+    outline: none;
+    border: 0.5px solid #DFE1E5;
+    margin-top: 18px;
+    padding-left: 45px;
+}
+
+input[type="text"]:hover {
+    box-shadow: 2px 2px 3px rgb(216, 216, 216);
+}
+
+input[type="text"]:focus {
+    box-shadow: 2px 2px 3px rgb(161, 160, 160);
+}
+
+
+.image_buscar {
+    width: 12px;
+    height: 12px;
+    margin-top: 35px;
+}
+
+.buscador {
+    margin-right: 535px;
+    position: fixed;
+}
+
+.microfonito {
+    margin-top: 30px;
+    width: 12px;
+    height: 20px;
+}
+
+.microfono {
+    margin-left: 515px;
+    position: fixed;
+
+}
+
+/*botones*/
+
+input[type="button"] {
+    margin-top: 20px;
+    background-color: #F8F9FA;
+    padding: 10px;
+    border: 0px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #4e2949;
+    height: 35px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="button"]:first-child {
+    margin-right: 8px;
+}
+
+input[type="button"]:hover {
+    box-shadow: 0px 0px 3px rgb(129, 128, 128);
+
+}
+
+.colombia {
+    font-family: 'corbel light';
+    font-weight:100;
+    margin-left: 20px;
+    border-bottom: 1 px solid #dadce0;
+    font-size: 11px;
+    color: #70757a;
+    margin: 0px;
+    height: 40px;
+    background-color: #F2F2F2;
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DADCE0 ;
+
+}
+.colombia h2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.footers_links_1 {
+    display: flex;
+    justify-content: left;
+
+}
+
+.footers_links_1 a {
+    margin: 5px;
+    margin-left: 30px;
+    margin-top: 11px;
+    color: #70757a;
+
+}
+.footers_links_1 a:hover,
+.footers_links_2 a:hover{
+    text-decoration: underline;
+}
+
+.footers_links_2 {
+    display: flex;
+    justify-content: right;
+    margin-top: -28px;
+    margin-right: 25px;
+
+}
+
+.footers_links_2 a {
+    margin: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+    color: #70757a;
+}
+
+.links_footer {
+    font-size: 16px;
+    background-color: #f3f2f2;
+    height: 40px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
